@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/dark.css">
   <link rel="stylesheet" href="./styles/light.css">
-  <link rel="icon" href="./images/favicin.ico" sizes="any">
+  <link rel="icon" href="./images/favicon.ico" sizes="any">
   <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./images/mobile-icon.png" sizes="any">
   <script src="./scripts/script.js"></script>
@@ -25,18 +25,18 @@
     <nav class="header__theme-menu">
       <ul class="header__theme-menu-list">
         <li class="header__theme-menu-item">
-          <button class="header__theme-menu-button header__theme-menu-button_type_light">
+          <button class="header__theme-menu-button header__theme-menu-button_type_light" data-theme="light">
             день
           </button>
         </li>
         <li class="header__theme-menu-item">
           <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-            disabled>
+            data-theme="auto" disabled>
             авто
           </button>
         </li>
         <li class="header__theme-menu-item">
-          <button class="header__theme-menu-button header__theme-menu-button_type_dark">
+          <button class="header__theme-menu-button header__theme-menu-button_type_dark" data-theme="dark">
             неон
           </button>
         </li>
