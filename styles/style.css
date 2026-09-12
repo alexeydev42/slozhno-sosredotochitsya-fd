@@ -230,8 +230,6 @@
   padding: 0 var(--main-gap);
 }
 
-/* Почему-то медиа-запросы в современном виде @media (1024px > width >= 768px) не работают у меня */
-
 @media (min-width: 768px) {
   :root {
     --main-gap: 20px;
